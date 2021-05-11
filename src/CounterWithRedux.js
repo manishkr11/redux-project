@@ -10,7 +10,7 @@ const CounterWithRedux = (props) => {
         </div>
     )
 }
-
+//it worked
 const mapStateToProps = state => {
     return {
         count: state.count
