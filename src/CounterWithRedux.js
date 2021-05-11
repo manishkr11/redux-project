@@ -11,12 +11,14 @@ const CounterWithRedux = (props) => {
     )
 }
 
+//store state
 const mapStateToProps = state => {
     return {
         count: state.count
     }
 }
 
+//store action
 const mapDispatchToProps = dispatch => {
     return {
         increment: () => dispatch(increment())
